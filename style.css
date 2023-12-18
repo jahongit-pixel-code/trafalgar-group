@@ -1,14 +1,14 @@
 :root {
-    --light-gray: #7D7987;
-    --balck: #000;
-    --light-blue: #458FF6;
-    --white: #fff;
+  --light-gray: #7d7987;
+  --balck: #000;
+  --light-blue: #458ff6;
+  --white: #fff;
 }
 
 body {
-    font-family: 'Mulish', sans-serif;
-    font-style: normal;
-    line-height: normal;
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  line-height: normal;
 }
 
 p,
@@ -19,39 +19,85 @@ h4,
 h5,
 h6,
 ul {
-    margin: 0;
+  margin: 0;
 }
 
 ul {
-    padding: 0;
-    list-style-type: none;
+  padding: 0;
+  list-style-type: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .primary-btn {
-    padding: 0 51px;
-    border-radius: 55px;
-    border: 1.4px solid #458FF6;
-    background: transparent;
-    color: var(--light-blue);
-    font-family: 'Mulish', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px;
+  padding: 0 51px;
+  border-radius: 55px;
+  border: 1.4px solid #458ff6;
+  background: transparent;
+  color: var(--light-blue);
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
 }
 
 .outline-btn {
-    background: var(--light-blue);
-    color: var(--white);
+  background: var(--light-blue);
+  color: var(--white);
 }
 
 /* jahongir header va hero */
 /* jahongir header va hero */
 
 /* diyor cervices */
-/* diyor cervices */
 
+.cervices {
+  display: flex;
+}
+
+.services__left h1 {
+  max-width: 427px;
+  color: #000;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.services__left p {
+  max-width: 445px;
+  padding-top: 25px;
+  color: #7d7987;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.btn {
+  /* width: 150px;
+  height: 46px;
+  margin-top: 48px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  border-radius: 55px;
+  background: #458ff6;
+  align-items: center;
+  border: none; */
+  margin-top: 25px;
+  padding: 10px;
+  border-radius: 55px;
+  border: none;
+  color: #fff;
+  background: #458ff6;
+}
+
+/* diyor cervices */
