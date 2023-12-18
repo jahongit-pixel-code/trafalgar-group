@@ -78,26 +78,19 @@ a {
 }
 
 .btn {
-  /* width: 150px;
-  height: 46px;
-  margin-top: 48px;
-  flex-shrink: 0;
-  color: #fff;
-  font-family: sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 60px;
-  border-radius: 55px;
-  background: #458ff6;
-  align-items: center;
-  border: none; */
   margin-top: 25px;
   padding: 10px;
   border-radius: 55px;
-  border: none;
+  border: #fff;
   color: #fff;
   background: #458ff6;
+  cursor: pointer;
+}
+
+.btn:hover {
+  border-radius: #458ff6;
+  background: #fff;
+  color: #458ff6;
 }
 
 /* diyor cervices */
