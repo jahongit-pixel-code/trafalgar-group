@@ -31,6 +31,55 @@ a {
   text-decoration: none;
 }
 
+.container {
+    width: 100%;
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    margin-bottom: 50px;
+}
+
+.header__logo {
+    width: 160px;
+    height: 41px;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+/* .header__item{} */
+
+.header__silka {
+    color: var(--light-gray);
+    font-size: 18px;
+    font-weight: 400;
+    transition: all 0.4s;
+}
+
+.active{
+    font-weight: 700;
+    color: var(--balck);
+}
+
+.header__silka:hover{
+    color: var(--light-blue);
+    transform: translateX(2px);
+}
+
+.active:hover{
+    color: var(--balck);
+}
+
 .primary-btn {
   padding: 0 51px;
   border-radius: 55px;
@@ -54,43 +103,5 @@ a {
 
 /* diyor cervices */
 
-.cervices {
-  display: flex;
-}
-
-.services__left h1 {
-  max-width: 427px;
-  color: #000;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 56px;
-}
-
-.services__left p {
-  max-width: 445px;
-  padding-top: 25px;
-  color: #7d7987;
-  font-size: 21px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 32px;
-}
-
-.btn {
-  margin-top: 25px;
-  padding: 10px;
-  border-radius: 55px;
-  border: #fff;
-  color: #fff;
-  background: #458ff6;
-  cursor: pointer;
-}
-
-.btn:hover {
-  border-radius: #458ff6;
-  background: #fff;
-  color: #458ff6;
-}
-
 /* diyor cervices */
+
