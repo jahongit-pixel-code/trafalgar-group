@@ -1,0 +1,57 @@
+:root {
+    --light-gray: #7D7987;
+    --balck: #000;
+    --light-blue: #458FF6;
+    --white: #fff;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    line-height: normal;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.primary-btn {
+    padding: 0 51px;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    background: transparent;
+    color: var(--light-blue);
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.outline-btn {
+    background: var(--light-blue);
+    color: var(--white);
+}
+
+/* jahongir header va hero */
+/* jahongir header va hero */
+
+/* diyor cervices */
+/* diyor cervices */
+
