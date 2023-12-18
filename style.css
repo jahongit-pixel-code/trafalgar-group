@@ -32,52 +32,52 @@ a {
 }
 
 .container {
-    width: 100%;
-    max-width: 1220px;
-    margin: 0 auto;
-    padding: 0 16px;
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
 
 .header__container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px 0;
-    margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+  margin-bottom: 50px;
 }
 
 .header__logo {
-    width: 160px;
-    height: 41px;
+  width: 160px;
+  height: 41px;
 }
 
 .header__list {
-    display: flex;
-    align-items: center;
-    gap: 40px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 /* .header__item{} */
 
 .header__silka {
-    color: var(--light-gray);
-    font-size: 18px;
-    font-weight: 400;
-    transition: all 0.4s;
+  color: var(--light-gray);
+  font-size: 18px;
+  font-weight: 400;
+  transition: all 0.4s;
 }
 
-.active{
-    font-weight: 700;
-    color: var(--balck);
+.active {
+  font-weight: 700;
+  color: var(--balck);
 }
 
-.header__silka:hover{
-    color: var(--light-blue);
-    transform: translateX(2px);
+.header__silka:hover {
+  color: var(--light-blue);
+  transform: translateX(2px);
 }
 
-.active:hover{
-    color: var(--balck);
+.active:hover {
+  color: var(--balck);
 }
 
 .primary-btn {
@@ -91,6 +91,7 @@ a {
   font-style: normal;
   font-weight: 700;
   line-height: 60px;
+  margin-top: 48px;
 }
 
 .outline-btn {
@@ -103,5 +104,32 @@ a {
 
 /* diyor cervices */
 
-/* diyor cervices */
+.cervices {
+  display: flex;
+}
 
+.services__left h1 {
+  max-width: 427px;
+  color: #000;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px; /* 116.667% */
+}
+
+.services__left p {
+  color: #7d7987;
+  padding-top: 25px;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.services__right img {
+  width: 593px;
+  height: 498px;
+  flex-shrink: 0;
+}
+
+/* diyor cervices */
